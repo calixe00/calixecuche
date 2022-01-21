@@ -1,0 +1,30 @@
+*
+{
+  font-family: arial;
+}
+
+h1
+{
+  color: blue;
+  font-size: 2em;
+  background-color: grey;
+
+}
+
+p{
+  width: 25%;
+  border: 1px solid black;
+  text-align: justify;
+  padding: 12px;
+  margin: 50px;
+}
+
+
+#PhotoProfile1{
+  width: 300px;
+}
+.logoSite{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
