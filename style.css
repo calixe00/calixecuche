@@ -1,30 +1,97 @@
-*
+body
 {
-  font-family: arial;
+  background-color: green;
 }
 
-h1
+header
 {
-  color: blue;
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+  margin-top: 1%;
+  background-image: url('images/Foret_amazonienne.jpeg');
+  border-radius: 23px;
+}
+
+#titre_principal
+{
+  background-color: black;
+  border-bottom-left-radius: 23px;
+}
+
+#titre_principal h1
+{
+  margin-left: 13px;
+  margin-right: 13px;
   font-size: 2em;
-  background-color: grey;
+  color: white;
+}
+
+nav
+{
+  position: relative;
+  bottom: -8%;
+}
+
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+  background-color: black;
+  border-bottom-right-radius: 23px;
+}
+
+nav li
+{
+  margin-right: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+section
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.article1
+{
+  width: 700px;
+  padding: 2px 20px;
+  margin: 20px 50px 0 20px;
+  border-radius: 23px;
+  background-color: black;
+}
+
+.article1 p, .article1 h2
+{
+  color: white;
+}
+
+#image1 img
+{
+  width: 700px;
 
 }
 
-p{
-  width: 25%;
-  border: 1px solid black;
-  text-align: justify;
-  padding: 12px;
-  margin: 50px;
+#imageGuide
+{
+  display: flex;
+  flex-direction: column;
 }
 
-
-#PhotoProfile1{
-  width: 300px;
-}
-.logoSite{
-  width: 60px;
-  height: 60px;
+#imageGuide img
+{
+  width: 400px;
   object-fit: contain;
+  border-radius: 23px;
+  margin-top: 20px;
+
+}
+
+p
+{
+  text-align: justify;
 }
