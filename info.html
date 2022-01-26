@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Hôtel de luxe - Infos</title>
+  </head>
+  <body>
+    <header>
+        <div id="titre_principal">
+          <h1>Ici se trouvent les infos</h1>
+        </div>
+        <nav>
+          <ul>
+            <li> <a href="index.html"> Menu </a></li>
+            <li> <a href="index.html#image2"> Hôtels </a></li>
+            <li> <a href="info.html"> Infos</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <script>
+
+      function openLights()
+      {
+       document.getElementById("theImage").src="images/openLights.png";
+      }
+
+      function closeLights()
+      {
+       document.getElementById("theImage").src="images/closeLights.png";
+      }
+    </script>
+    <p> <button type="button" name="button" id="theButton" onclick="closeLights()">Eteindre !</button>
+    <button type="button" name="button" id="theButton" onclick="openLights()">Allumer !</button></p>
+    <img id="theImage" src="images/closeLights.png">
+
+  </body>
+</html>

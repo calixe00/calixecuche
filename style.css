@@ -70,7 +70,7 @@ section
   color: white;
 }
 
-#image1 img
+#image1 img, #image2 img
 {
   width: 700px;
 
@@ -94,4 +94,11 @@ section
 p
 {
   text-align: justify;
+}
+
+#theImage
+{
+  width: 150px;
+  height: 290px;
+  object-fit: cover;
 }
